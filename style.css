@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid rgb(240, 200, 200);
+    margin: 10px 40px;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+}
+.button{
+    border: 2px solid rgb(165, 165, 228);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(199, 243, 178);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(32, 43, 190);
+    margin: 5px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.06);
+    background-color: rgba(128, 255, 0, 0.479);
+    color: rgb(42, 86, 168);
+    border-radius: 10px;
+}
+.resultArea{
+    position: relative;
+    top: 100px;
+    border: 2px solid rgb(240, 200, 200);
+    margin: 0px 40px;
+    background-color: rgb(199, 243, 178);
+    display: flex;
+    flex-direction: column;
+}
+#result{
+    margin: auto;
+    background-color: rgb(199, 243, 178);
+    border: none;
+    font-size: 40px;
+    padding: 10px;
+    color: darkblue;
+    font-weight: bold;
+}
